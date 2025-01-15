@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Eccad.AppHost", "MI.Eccad.AppHost\MI.Eccad.AppHost.csproj", "{97793B37-10DD-4885-BA4E-EA8B3458C8A5}"
 EndProject
@@ -11,6 +11,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Eccad.Web", "MI.Eccad.Web\MI.Eccad.Web.csproj", "{7020CE31-45F0-4370-B6AE-B4A6AEC48AE3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Eccad.Models", "MI.Eccad.Models\MI.Eccad.Models.csproj", "{D90AEFE4-A409-4D6E-B85F-6596AFB80045}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MI.Eccad.Core", "MI.Eccad.Core\MI.Eccad.Core.csproj", "{3C538A24-4E34-4652-953A-4CC94E3C4215}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{D90AEFE4-A409-4D6E-B85F-6596AFB80045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D90AEFE4-A409-4D6E-B85F-6596AFB80045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D90AEFE4-A409-4D6E-B85F-6596AFB80045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C538A24-4E34-4652-953A-4CC94E3C4215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C538A24-4E34-4652-953A-4CC94E3C4215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C538A24-4E34-4652-953A-4CC94E3C4215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C538A24-4E34-4652-953A-4CC94E3C4215}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-﻿namespace MI.Eccad.Models;
+﻿namespace MI.Eccad.Models.DTO;
 
 public abstract class NamedEntity : BaseEntity
 {
