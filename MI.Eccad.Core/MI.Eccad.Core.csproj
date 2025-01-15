@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
@@ -8,14 +8,10 @@
 
   <ItemGroup>
     <PackageReference Include="MySql.EntityFrameworkCore" Version="8.0.8" />
-	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.12" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="7.2.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MI.Eccad.Core\MI.Eccad.Core.csproj" />
     <ProjectReference Include="..\MI.Eccad.Models\MI.Eccad.Models.csproj" />
-    <ProjectReference Include="..\MI.Eccad.ServiceDefaults\MI.Eccad.ServiceDefaults.csproj" />
   </ItemGroup>
 
 </Project>

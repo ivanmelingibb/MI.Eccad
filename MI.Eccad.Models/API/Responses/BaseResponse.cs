@@ -1,6 +1,6 @@
-﻿namespace MI.Eccad.Models;
+﻿namespace MI.Eccad.Models.API.Responses;
 
-public abstract class BaseEntity
+public class BaseResponse
 {
     public int Id { get; set; }
     public DateTime Created { get; set; }
